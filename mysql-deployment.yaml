@@ -37,9 +37,9 @@ spec:
         name: mysql
         env:
         - name: MYSQL_ROOT_PASSWORD
-          value: password
+          value: CSC2019Team
         - name: MYSQL_DATABASE
-          value: chat
+          value: mygis
         - name: MYSQL_USER
           value: db_user
         - name: MYSQL_PASSWORD
