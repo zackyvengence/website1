@@ -3,10 +3,10 @@
  * using mysqli_connect for database connection
  */
 
-$databaseHost = 'localhost';
+$databaseHost = '103.19.208.30';
 $databaseName = 'mygis';
 $databaseUsername = 'root';
-$databasePassword = '';
+$databasePassword = 'CSC2019Team';
 
 $mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName); 
 
