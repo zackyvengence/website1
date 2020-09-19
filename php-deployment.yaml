@@ -33,8 +33,8 @@ spec:
         tier: frontend
     spec:
       containers:
-      - name: webapp1
-        image: shawon10/ruetchatbot
+      - name: website1
+        image: php
         imagePullPolicy: Always
         ports:
         - containerPort: 8081
